@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Forms\Admin\Admin_add_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\Admin_add_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\Admin_all_clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\Admin_all_vouchers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\Admin_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\Admin_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\Admin_update_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\Admin_update_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Authorization_registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Client_add_voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Client_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Client_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Start_authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
