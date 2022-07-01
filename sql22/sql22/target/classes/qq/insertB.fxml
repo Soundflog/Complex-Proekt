@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="589.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="qq.InsertController">
+    <children>
+        <Label fx:id="label" layoutX="80.0" layoutY="413.0" prefHeight="30.0" prefWidth="124.0" textAlignment="CENTER" />
+
+        <Button fx:id="button" layoutX="101.0" layoutY="536.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="81.0" text="Добавить" />
+      <TextField fx:id="licensevehicle" layoutX="48.0" layoutY="115.0" prefHeight="26.0" prefWidth="174.0" promptText="Гос номер" />
+      <ComboBox fx:id="carname" layoutX="47.0" layoutY="72.0" prefHeight="26.0" prefWidth="174.0" promptText="Авто" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="25.0" text="Добавьте" textAlignment="CENTER" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="checkintime" layoutX="48.0" layoutY="151.0" promptText="Дата заезда" />
+      <DatePicker fx:id="checkouttime" layoutX="48.0" layoutY="190.0" promptText="Дата выезда" />
+      <TextField fx:id="numberphone" layoutX="48.0" layoutY="239.0" prefHeight="26.0" prefWidth="174.0" promptText="Номер телефона" />
+
+        <TextField fx:id="serianumber" layoutX="48.0" layoutY="280.0" prefHeight="26.0" prefWidth="174.0" promptText="Серия номер док" />
+
+      <TextField fx:id="price" layoutX="48.0" layoutY="320.0" prefHeight="26.0" prefWidth="174.0" promptText="Сумма" />
+
+      <TextField fx:id="lastname" layoutX="48.0" layoutY="360.0" prefHeight="26.0" prefWidth="174.0" promptText="Фамилия" />
+      <TextField fx:id="firstname" layoutX="48.0" layoutY="401.0" prefHeight="26.0" prefWidth="174.0" promptText="Имя" />
+      <TextField fx:id="midname" layoutX="48.0" layoutY="443.0" prefHeight="26.0" prefWidth="174.0" promptText="Отчество" />
+      <ComboBox fx:id="autostops" layoutX="48.0" layoutY="484.0" prefHeight="26.0" prefWidth="174.0" promptText="Автостоянка" />
+    </children>
+</AnchorPane>

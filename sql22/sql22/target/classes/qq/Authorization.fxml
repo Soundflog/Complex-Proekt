@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="365.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="qq.Authorization">
+   <children>
+      <TextField fx:id="login" layoutX="111.0" layoutY="85.0" prefHeight="26.0" prefWidth="225.0" promptText="Login" />
+      <TextField fx:id="password" layoutX="111.0" layoutY="166.0" prefHeight="26.0" prefWidth="226.0" promptText="Password" />
+      <Button fx:id="vhod" layoutX="111.0" layoutY="257.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="226.0" text="Войти" />
+      <Label layoutX="184.0" layoutY="28.0" text="Войти">
+         <font>
+            <Font name="Arial" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

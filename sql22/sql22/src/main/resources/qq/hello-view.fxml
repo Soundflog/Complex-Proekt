@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="878.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="qq.HelloController">
+   <children>
+      <Label fx:id="label" layoutX="106.0" layoutY="118.0" text="_" />
+      <TableView fx:id="tableView" layoutX="3.0" layoutY="149.0" prefHeight="549.0" prefWidth="872.0">
+        <columns>
+          <TableColumn fx:id="status" prefWidth="67.19999551773071" text="Статус" />
+          <TableColumn fx:id="carname" prefWidth="112.0" text="Авто" />
+            <TableColumn fx:id="licensevehicle" prefWidth="90.20002746582031" text="Гос номер" />
+            <TableColumn fx:id="checkintime" minWidth="0.0" prefWidth="115.5999755859375" text="Дата заезда" />
+            <TableColumn fx:id="checkouttime" prefWidth="120.39996337890625" text="Дата выезда" />
+            <TableColumn fx:id="numberphone" prefWidth="117.5999755859375" text="Номер тел" />
+            <TableColumn fx:id="lastname" prefWidth="151.2000732421875" text="Клиент" />
+            <TableColumn fx:id="price" prefWidth="102.0" text="Общая сумма" />
+        </columns>
+      </TableView>
+      <ToolBar layoutX="-3.0" layoutY="2.0" prefHeight="144.0" prefWidth="878.0">
+        <items>
+             <Button fx:id="add" alignment="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="66.0" text="+" textAlignment="CENTER">
+               <font>
+                  <Font name="Roboto Light" size="29.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+            <Button fx:id="refresh" mnemonicParsing="false" prefHeight="61.0" prefWidth="76.0" text="Обновить" />
+            <TextField fx:id="Summsearch" prefHeight="26.0" prefWidth="150.0" promptText="Сумма" />
+            <ComboBox fx:id="forsearch" prefWidth="150.0" promptText="Название авто" />
+            <CheckBox fx:id="filterOn" mnemonicParsing="false" text="Вкл" />
+            <Label text="Включить совместный фильтр?" />
+            <Button fx:id="search" mnemonicParsing="false" prefHeight="38.0" prefWidth="66.0" text="Поиск" />
+        </items>
+      </ToolBar>
+   </children>
+</AnchorPane>
